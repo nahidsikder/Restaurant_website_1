@@ -1,0 +1,477 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+.container{
+
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   grid-template-columns: repeat(3,1fr);
+   justify-content: space-around;
+    background-color: orangered;
+    position: relative;
+    padding: 15px;
+
+  
+}
+.logo{
+    position: absolute;
+  left: 50px;
+ bottom: -15px;
+}
+h3 i{
+    color: cornflowerblue;
+}
+.menu-1 a{
+    text-decoration: none;
+    color: white;
+   margin: 10px;
+    
+    
+}
+.menu-1{
+    margin-left: 110px;
+ 
+}
+.menu-1 a:hover{
+    
+    color:black;
+}
+.signin button{
+/* width: 80px;
+height: 35px; */
+padding: 10px;
+background-color: rgb(24, 103, 220) ;
+color: white;
+font-weight: bold;
+border-radius: 5px;
+cursor: pointer;
+margin-left: 350px;
+
+}
+.signin button:hover{
+    
+    background-color:rgb(54, 124, 229)  ;
+    color: rgb(245, 240, 240);
+    /* border: 3px solid rgb(54, 124, 229) ; */
+}
+.search input{
+    position: absolute;
+    width: 300px;
+    height: 33px;
+    outline: hidden;
+    border: 3px solid white;
+    border-radius: 10px;
+    margin-right: 80px;
+   
+    color: black;
+    margin-bottom: 10px;
+ 
+  
+   
+}
+
+.icon{
+    position: absolute;
+    background-color: dodgerblue;
+    display: inline;
+    color:white;
+    padding: 7px;
+    left: 1181px;
+    overflow: hidden;
+    border-radius: 0px 10px 10px 0px;
+   
+   
+    
+    
+    
+    
+}
+
+.icon:hover{
+background-color: rgb(82, 164, 247) ;
+}
+.number{
+    width: 200px;
+    height: 40px;
+    background-color:white;
+    outline: 2px solid black;
+    border-radius: 5px;
+}
+.number:hover{
+    background-color: aqua;
+    
+}
+.email:hover{
+    background-color: aqua; 
+}
+.icon-2{
+    position: absolute;
+    font-size: 28px;
+    margin-left: 10px;
+    margin-top: 4px;
+    color: rgb(0, 119, 255);
+    
+}
+.contact{
+    position: absolute;
+    margin-left: 60px;
+    margin-top: 6px;
+}
+.email .icon-3{
+    
+
+    position: absolute;
+    font-size: 28px;
+    margin-left: 10px;
+    margin-top: 4px;
+    color: rgb(0, 119, 255);
+}
+.contact h6{
+    color: rgb(142, 139, 139);
+}
+.email{
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    background-color:white;
+    outline: 2px solid black;
+    border-radius: 5px; 
+    margin-left: 220px;
+    bottom: 11px;
+
+}
+.contact-2{
+    position: absolute;
+    bottom: 5px;
+    margin-left: 60px;
+    
+   
+}
+.cover{
+    position: relative;
+    background-image:url(./Screenshot\ 2023-10-03\ 200239.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 75vh;
+
+}
+.details{
+    position: absolute;
+    color:aqua;
+    width: 600px;
+    margin-left: 100px;
+    margin-top: 85px;
+    font-weight: bold;
+   
+    
+}
+
+.details p{
+    text-align: justify;
+    margin-top: 20px;
+    color: white;
+}
+.details h1{
+ color:red ;
+ font-style: italic;
+ margin-bottom: 15px;
+ 
+ margin-left: 150px;
+}
+.details .btn a{
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(55, 145, 235)  ;
+    padding: 10px;
+    font-size: 12px;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+.details .btn a:hover{
+    
+    background-color:rgb(54, 124, 229)  ;
+ outline: 3px solid rgb(54, 124, 229) ;
+}
+.text{
+    margin-top:50px;
+    color: black;
+    width: 550px;
+    margin-left: 450px;
+}
+.text .our-menu{
+    color:red;
+    margin-bottom: 30px;
+   margin-left: 150px;
+    font-weight: bold;
+}
+
+
+.text p{
+    margin-top: 20px;
+    color:black;
+    font-weight: bold;
+}
+.pic img{
+    width: 380px;
+    height: 220px;
+}
+.Display{
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-left: 50px;
+    margin-top: 80px;
+    width: 380px;
+    height:500px ;
+    box-shadow: 5px -5px 10px rgb(226, 223, 223),-5px 5px 10px rgb(219, 215, 215);
+} 
+.Display h2{
+    margin-bottom: 12px;
+}
+.Display h3{
+margin-top: 10px;
+}
+.Display .btn a{
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(23, 23, 165);
+    padding: 10px 30px 10px 30px;
+    font-size: 15px;
+    margin-top: 30px;
+    font-weight: bold;
+    margin-left: 100px;
+    border-radius: 5px;
+}
+.demo{
+    margin-top: 20px;
+    margin-left: 20px;
+    text-align: justify;
+    margin-right: 30px;
+}
+.demo .btn a:hover{
+
+    outline: 3px solid rgb(23, 23, 165);
+}
+.container-2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.next a{
+    text-decoration: none;
+    background-color: rgb(23, 23, 165) ;
+    color:white;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    margin-top: 50px;
+    display: inline-block;
+    margin-left: 700px;
+}
+.next a:hover{
+    outline: 3px solid rgb(23, 23, 165);
+}
+.box{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    color: white;
+    background-color: black;
+    left: 40px;
+     border-radius: 5px;
+     top: 130px;
+}
+
+.shef-icon{
+    position: absolute;
+    font-size: 60px;
+    left: 120px;
+  color: orange;
+  top: 30px;
+}
+.box h3{
+    position: absolute;
+    top: 140px;
+    left: 30px;
+}
+.box p{
+    position: absolute;
+    top: 180px;
+    left: 30px;
+    right: 30px;
+   text-align: justify;
+}
+.box:hover{
+    background-color: orangered;
+    color:black;
+}
+section{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.information{
+    background-color:orangered;
+    
+    height:480px ;
+    margin-top: 260px;
+    
+    
+}
+
+.helpline{
+    width: 500px;
+    height: 390px;
+    background-color: white;
+   border-radius: 10px 0px 10px 0px;
+    box-shadow: 5px -5px 10px rgb(249, 247, 247),-5px 5px 10px rgb(250, 248, 248);
+    margin-top: 50px;
+}
+.last{
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+}
+.social{
+    margin-top: 100px;
+    margin-left: 70px;
+}
+.ditails-2{
+    margin-top: 50px;
+}
+.ditails-2 p{
+    margin-top: 20px;
+    font-weight: bold;
+    
+}
+.ditails-2 h6{
+    color: rgb(65, 62, 62);
+    margin-top: 10px;
+}
+.helpline h1{
+    margin-left: 90px;
+    margin-top: 20px;
+}
+.name-email input{
+    width: 350px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+    margin-top: 30px;
+    margin-left: 45px;
+
+}
+.date-time input{
+    width: 350px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+    margin-top: 30px;
+    margin-left: 45px;
+}
+
+.message input{
+    width: 350px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+    margin-top: 70px;
+    margin-left: 45px;
+}
+.book a{
+    background-color: orangered;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    margin-top: 25px;
+    display: inline-block;
+    margin-left: 170px;
+    font-weight: bold;
+    border-radius: 5px;
+
+}
+.book a:hover{
+    background-color: rgb(231, 77, 20);
+    color: black;
+}
+footer h1{
+   text-align: center;
+   margin-top: 50px;
+   font-weight: bold;
+}
+footer h3{
+    text-align: center;
+    color: orangered;
+}
+.box-2{
+    width: 300px;
+    height: 330px;
+    color: white;
+    background-color: black;
+    left: 40px;
+     border-radius: 5px;
+     top: 130px;
+     margin-left: 40px;
+}
+.box-2 .pic img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.master{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 100px;
+}
+.box-2 h2{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.box-2 h4{
+    margin-top: 10px;
+    margin-left: 20px;
+    color: rgb(206, 203, 203);
+}
+.box-2:hover{
+    background-color: orangered;
+    color:black;
+}
+.back{
+    background-color: black;
+    color: white;
+    height: 350px;
+}
+.last-part{
+    display: grid;
+    margin-top: 150px;
+    grid-template-columns: repeat(4,1fr);
+}
+.last-part .contact{
+    margin-left: 320px;
+}
+.last-part h2{
+    margin-top: 50px;
+    color: orangered;
+}
+.last-part p{
+    margin-top: 20px;
+}
+.Company{
+    margin-left: 35px;
+}
+.opening h4{
+    margin-top: 20px;
+}
+.p-icon{
+    font-size: 25px;
+}
